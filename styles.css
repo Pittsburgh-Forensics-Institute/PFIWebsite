@@ -24,16 +24,18 @@ body{
 
 .nav li a, .navbar-header a{
 	color: #5B5B5B !important;
+
 }
 
 .nav li a:hover{
-	color: #1abc9c !important;
+	color: #F0AD4E !important;
 }
 
 .navbarStateWhenScrolled{
-	background-color: rgba(229, 229, 229, 1);
-	padding-top: 8px;
-	padding-bottom: 8px;
+	background-color: #ffffff;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
 }
 
 /* home styles*/
@@ -142,6 +144,11 @@ body{
 	font-size: 16px;
 }
 
+.bg-curriculum-text li{
+
+	font-size: 16px;
+}
+
 /* about styles*/
 .bg-about{
 	background-color: #ffffff;
@@ -164,6 +171,12 @@ body{
 .bg-about-text p{
 
 	font-size: 16px;
+}
+
+.staff-image{
+	margin-top: 70px;
+	margin-bottom: 10px;
+	width: 275px;
 }
 
 /* contact styles*/
