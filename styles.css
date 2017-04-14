@@ -1,0 +1,189 @@
+body{
+	font-family: "Montserrat", sans-serif;
+	font: 20px;
+	line-height: 1.8;
+}
+
+.container-fluid{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/* navbar styles*/
+.navbar{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+}
+
+
+/* home styles*/
+.bg-home{
+	background: #1abc9c;
+	color: #000;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 100vh;
+}
+
+.bg-home-text{
+	color: #ffffff;
+	position: relative;
+	top: 40%;
+	transform: translateY(-40%);
+}
+
+.bg-home-text h1{
+
+	font-size: 35px;
+}
+
+.bg-home-text p{
+
+	font-size: 20px;
+}
+
+/* general information styles*/
+.bg-info{
+	background-color: #ffffff;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.bg-info-text h1{
+	font-size: 27px;
+	margin-bottom: 50px;
+}
+
+.bg-info-text h3{
+
+	font-size: 18px;
+}
+
+.bg-info-text p{
+
+	font-size: 16px;
+}
+
+/* map styles*/
+.bg-map{
+	background-color: #ffffff;
+}
+
+/* FAQ styles*/
+.bg-faq{
+	background-color: #ffffff;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.bg-faq-text h1{
+	font-size: 27px;
+	margin-bottom: 50px;
+}
+
+.bg-faq-text h3{
+
+	font-size: 18px;
+}
+
+.bg-faq-text p{
+
+	font-size: 16px;
+}
+
+/* curriculum styles*/
+.bg-curriculum{
+	background-color: #F2F5F7;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.bg-curriculum-text h1{
+	font-size: 27px;
+	margin-bottom: 50px;
+}
+
+.bg-curriculum-text h3{
+
+	font-size: 18px;
+}
+
+.bg-curriculum-text p{
+
+	font-size: 16px;
+}
+
+/* about styles*/
+.bg-about{
+	background-color: #ffffff;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.bg-about-text h1{
+	font-size: 27px;
+	margin-bottom: 50px;
+}
+
+.bg-about-text h3{
+
+	font-size: 18px;
+}
+
+.bg-about-text p{
+
+	font-size: 16px;
+}
+
+/* contact styles*/
+.bg-contact{
+	background-color: #F2F5F7;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.bg-contact-text h1{
+	font-size: 27px;
+	margin-bottom: 50px;
+}
+
+.bg-contact-text h3{
+
+	font-size: 18px;
+}
+
+.bg-contact-text p{
+
+	font-size: 16px;
+}
+
+/* footer styles*/
+.bg-footer{
+	background-color: #2f2f2f;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.bg-footer-text{
+
+	font-size: 16px;
+}
