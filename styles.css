@@ -17,13 +17,13 @@ body{
 	border: 0;
 	border-radius: 0;
 	margin-bottom: 0;
-	font-size: 14px;
+	font-size: 14.5px;
 	transition: 0.7s;
-	background-color: rgba(35,35,35,0.5);
+	background-color: rgba(35,35,35,0.1);
 }
 
 .nav li a, .navbar-header a{
-	color: #ffffff !important;
+	color: #5B5B5B !important;
 }
 
 .nav li a:hover{
@@ -31,14 +31,14 @@ body{
 }
 
 .navbarStateWhenScrolled{
-	background-color: rgba(0, 0, 0, 1);
+	background-color: rgba(229, 229, 229, 1);
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
 
 /* home styles*/
 .bg-home{
-	background: url("assets/images/books.jpeg");
+	background: url("assets/images/books-optimal.jpg");
 	color: #000;
 	background-size: cover;
 	padding-top: 70px;
@@ -49,7 +49,7 @@ body{
 }
 
 .bg-home-text{
-	color: #ffffff;
+	color: #5B5B5B;
 	position: relative;
 	top: 40%;
 	transform: translateY(-40%);
