@@ -12,13 +12,14 @@ body{
 
 /* navbar styles*/
 .navbar{
-	padding-top: 17px;
-	padding-bottom: 17px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	border: 0;
 	border-radius: 0;
 	margin-bottom: 0;
-	font-size: 14.5px;
-	transition: 0.7s;
+	font-size: 16px !important;
+	transition: 0.6s;
+	-webkit-transition: 0.6s; /*for safari*/
 	background-color: rgba(255,255,255,0.3);
 }
 
