@@ -204,6 +204,10 @@ body{
 	font-size: 16px;
 }
 
+.social-media-icons{
+	width: 27px;
+}
+
 /* footer styles*/
 .bg-footer{
 	background-color: #2f2f2f;
