@@ -44,6 +44,10 @@ body{
 	border: 0px;
 }
 
+.navbar-menu:hover{
+	background-color: rgba(255,255,255,0) !important;
+}
+
 /* home styles*/
 .bg-home{
 	background: url("assets/images/books-optimal.jpg");
