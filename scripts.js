@@ -1,18 +1,27 @@
 $(document).ready(function(){
-	
-	checkPosition(); //check the page position on init
+    var menuClicked = false;
+	checkPosition(menuClicked); //check the page position on init
 
 	//function to constantly check the scroll position
 	$(document).scroll(function(){
-		checkPosition();
+		checkPosition(menuClicked);
 	});
 
+    //function to check to see if hamburger menu button clicked
+    document.getElementById("navbarCollapseButton").addEventListener("click", function(){
+        menuClicked = !menuClicked;
+        checkPosition(menuClicked);
+    });
+
 	//function that checks the page position and edits how the navbar looks based on where the user has scrolled
-	function checkPosition(){
+	function checkPosition(menuStatus){
 		var position = $(this).scrollTop();
-		if(position == 0)
-			$(".navbar").removeClass("navbarStateWhenScrolled");
-		else
+		if(position == 0){
+            if(!menuStatus)
+                $(".navbar").removeClass("navbarStateWhenScrolled");
+            else
+                $(".navbar").addClass("navbarStateWhenScrolled");
+        }else
 			$(".navbar").addClass("navbarStateWhenScrolled");
 	}
 
