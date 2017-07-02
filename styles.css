@@ -189,6 +189,17 @@ body{
 	width: 275px;
 }
 
+.clickable{
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+}
+
+.clickable:hover{
+	background: rgba(0,0,0,0.2);
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+}
+
 /* contact styles*/
 .bg-contact{
 	background-color: #F2F5F7;
