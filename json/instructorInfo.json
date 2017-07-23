@@ -1,0 +1,8 @@
+[
+	{
+		"lastName":"Jain",
+		"firstName":"Akshath",
+		"description":"Awesome dude",
+		"onclick":"window.location.assign('http://akshathjain.com');"
+	}
+]
