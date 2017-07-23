@@ -2,12 +2,50 @@
 	{
 		"lastName":"Jain",
 		"firstName":"Akshath",
+		"image":"akshathjain.jpg",
 		"description":"Awesome dude",
 		"onclick":"window.location.assign('http://akshathjain.com');"
 	},
 	{
-		"lastName":"Z",
-		"firstName":"Awesome",
-		"description":"asdf"
+		"lastName":"Li",
+		"firstName":"Frank",
+		"image":"frankli.jpg",
+		"description":"Frank is currently a rising senior and one of the most experienced members of the North Allegheny Speech and Debate team. He has been extremely active in teaching and helping younger members of the team. In 10th grade, Frank was an event leader for public forum debate for middle school team. The subsequent year Frank was the event leader for policy debate for the high school team. In addition, Frank has reached elimination rounds at the Harvard National Tournament, finished 10th in the state for policy debate, and achieved top 4 in the International Public Policy Forum. Frank can't wait to continue teaching the next generation of debaters this summer!"
+	},
+	{
+		"lastName":"Fu",
+		"firstName":"Joy",
+		"image":"joyfu.jpg",
+		"description":"Joy Fu has been debating on the North Allegheny Speech and Debate team for 2 years, focusing on Lincoln-Douglas debate. She's had success on both the local and national circuits, placing at multiple tournaments. This will be her second year as an instructor at PFI."
+	},
+	{
+		"lastName":"Blackburn",
+		"firstName":"Mason",
+		"image":"masonblackburn.JPG",
+		"description":"Mason Blackburn is a rising senior at North Allegheny Senior High school. He has three years of experience in forensics with Extemporaneous speaking as well as Impromptu and Commentary; this includes many tournament placings, most notably a fifth place at the State tournament in Impromptu. He taught Extemp at PFI last year and continued teaching in North Allegheny's middle school program throughout the year. Outside of forensics, Mason has played soccer for 11 years and enjoys video games. Past high school, Mason plans to pursue economics and international affairs."
+	},
+	{
+		"lastName":"Yu",
+		"firstName":"Victor",
+		"image":"victoryu.png",
+		"description":"Victor Yu is an upcoming junior debater in Public Forum. He has 3 years of debate experience and has taught at PFI previously for one year. He has been to multiple national tournaments over his 2 years of doing high school debate and has broken to elimination rounds in 2, Yale and Walt Whitman. He is very committed into helping future debaters achieve their full potential and to help anyone who wants to improve their debating/speaking skills."
+	},
+	{
+		"lastName":"Fernando",
+		"firstName":"Adelle",
+		"image":"adellefernando.jpg",
+		"description":"Adelle Fernando is a rising junior on the North Allegheny Speech and Debate team. Her primary event is duo interpretation but she has performed both DI and HI. Adelle has competed avidly in both the local and national circuits, qualifying to states and CFL Nationals this past year. She has also reached out rounds at the Wake Forest and PA State tournaments. Adelle has taught NA middle school forensics and NAFI, and attended the GMIF speech camp last summer, giving her a wide perspective of speech teaching styles. Adelle is excited to share her knowledge and expertise in interpretation with PFI this summer!"
+	},
+	{
+		"lastName":"Flagg",
+		"firstName":"Alex",
+		"image":"alexflagg.jpg",
+		"description":"Alex Flagg is a rising junior at North Allegheny High School.  She has been a part of of their forensics team for two years now, competing in Dramatic Interpretation.  A former camper, Alex is vey excited to continue to be a part of PFI and to impart whatever interp wisdom she can onto a new group of students."
+	},
+	{
+		"lastName":"Sircar",
+		"firstName":"Adrija",
+		"image":"",
+		"description":"Adrija Sircar, a rising senior, has participated in Public Forum, Congressional and Parliamentary Debate for the past three years. She has qualified for state tournaments in both Congressional and Parliamentary Debate, with an undefeated 3-0 record in Parliamentary Debate at the 2017 Regional Debate Tournament. She has also judged Lincoln-Douglas debate during middle school debate tournaments. In addition to debate, Adrija also immensely enjoys playing Western Classical Music on the piano and singing Indian classical music in Hindustani Chhota Khayal and Bada Khayal form. Adrija is also actively engaged in many volunteering activities in her community. Adrija has a strong interest in medicine,has actively participated over the years in helping with medical care at a regional hospital, and hopes to major in pre-medicine in college."
 	}
 ]
