@@ -14,6 +14,27 @@
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 	<script src="scripts/instructorScripts.js"></script>
 
+	<style>
+		.center{
+			position: relative;
+		}
+		.center p{
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		.center img{
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		.center h3{
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	</style>
+
 </head>
 <body>
 
@@ -32,12 +53,16 @@
 	</nav>
 
 	<!--begin template engine-->
-	<div class="container-fluid text-center bg-about bg-about-text">
+	<div class="container-fluid bg-about bg-about-text">
 		<div id="instructor-container"> 
-			<div class="col-sm-4" id="instructor-template">
-				<img class="staff-image" src="" alt="instructor_image"/>
-				<h3>Instructor Name</h3>
-				<p>Instructor Description</p>
+			<div class="row bg-staff-card center" id="instructor-template">
+				<div class="vertical-center col-sm-3">
+					<img class="text-center img-responsive staff-image" src="" alt="instructor_image"/>
+				</div>
+				<div class="vertical-center col-sm-9">
+					<h3>Instructor Name</h3>
+					<p>Instructor Description</p>
+				</div>
 			</div>
 		</div>
 	</div>
