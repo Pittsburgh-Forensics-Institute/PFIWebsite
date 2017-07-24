@@ -19,6 +19,12 @@
 		"description":"Joy Fu has been debating on the North Allegheny Speech and Debate team for 2 years, focusing on Lincoln-Douglas debate. She's had success on both the local and national circuits, placing at multiple tournaments. This will be her second year as an instructor at PFI."
 	},
 	{
+		"lastName":"Mahajan",
+		"firstName":"Abhishek",
+		"image":"abhishekmahajan.jpg",
+		"description":"Abhishek is a rising senior at North Allegheny Senior High school and is going into his 4th year of debate. This past school year Abhishek was the event leader and main instructor for Public Forum on the middle school debate team.  In addition to being heavily involved in teaching debate, Abhishek also loves competing on the debate circuit. This year he placed at several local tournaments and qualified for the Grand National Tournament,  the State Tournament, and placed in the top 5 at the National Speech and Debate Qualifier. In addition to Public Forum debate, Abhishek also enjoys competing in other forms of debate, this year he went undefeated in Parliamentary Debate at the PHSSL State Qualifier."
+	},
+	{
 		"lastName":"Blackburn",
 		"firstName":"Mason",
 		"image":"masonblackburn.JPG",
@@ -47,5 +53,23 @@
 		"firstName":"Adrija",
 		"image":"",
 		"description":"Adrija Sircar, a rising senior, has participated in Public Forum, Congressional and Parliamentary Debate for the past three years. She has qualified for state tournaments in both Congressional and Parliamentary Debate, with an undefeated 3-0 record in Parliamentary Debate at the 2017 Regional Debate Tournament. She has also judged Lincoln-Douglas debate during middle school debate tournaments. In addition to debate, Adrija also immensely enjoys playing Western Classical Music on the piano and singing Indian classical music in Hindustani Chhota Khayal and Bada Khayal form. Adrija is also actively engaged in many volunteering activities in her community. Adrija has a strong interest in medicine,has actively participated over the years in helping with medical care at a regional hospital, and hopes to major in pre-medicine in college."
+	},
+	{
+		"lastName":"Ricci",
+		"firstName":"Eric",
+		"image":"ericricci.JPG",
+		"description":"Eric Ricci has been competing with the NA Debate Team for over 5 years, winning accolades on a local, state and national level.  He has 3 years of coaching experience in LD debate, and helps young aspiring debaters achieve success and realize their potential.  He is extremely excited to help coach at PFI this year, and looks forward to working with you all!"
+	},
+	{
+		"lastName":"Gao",
+		"firstName":"Elaine",
+		"image":"elainegao.png",
+		"description":"Elaine Gao is a rising senior at the North Allegheny Senior High School, and has been a member of the North Allegheny Speech and Debate team for three years. She has competed in Original Oratory all three years, making finals at several local tournaments including Central Catholic, Mercer, West Allegheny, and Pine Richland. Later in the season, she was elected to compete at PHSSL Districts, CFL Districts, and NSDA Districts, and qualified to compete at NCFLs in Kentucky. Elaine will be the 2017-2018 Publicity and Recruiting Officer for the team, and is excited to work with the orators attending PFI."
+	},
+	{
+		"lastName":"Guo",
+		"firstName":"Elizabeth",
+		"image":"elizabethguo.jpg",
+		"description":"Liz Guo is an upcoming senior with 4 years of debate experience. Since her joining in 8th grade, this will be her 5th year of extemp, her favorite event. With extemp, she has competed both on the local and national level, qualifying in 2nd place for the CFl Nationals and participating in various large tournaments such as Yale, Harvard, GMU, etc. With congress, she also competed in the NSDA Nationals after placing 3rd in the districts. Outside of debate, Liz has a variety of interests, having taken piano, acting, and martial arts lessons."
 	}
 ]
