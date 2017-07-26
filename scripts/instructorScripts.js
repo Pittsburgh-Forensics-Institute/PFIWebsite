@@ -37,8 +37,9 @@ function layoutInflator(data, template, holder){
 
 		row.appendChild(layoutClone);
 		
-		if((i + 1) % 3 == 0)
+		if((i + 1) % 3 == 0 || i == data.length - 1){
 			document.getElementById(holder).appendChild(row);
+		}
 	}
 	layout.style.display = "none";
 }
