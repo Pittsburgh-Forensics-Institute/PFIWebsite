@@ -18,8 +18,14 @@ $(document).ready(function(){
 function layoutInflator(data, template, holder){
 	//populate the data
 	var layout = document.getElementById(template);
+
+	var row = null;
 	for(var i = 0; i < data.length; i++){
 		var layoutClone = layout.cloneNode(true);
+		if(i % 3 == 0){
+			row = document.createElement("DIV");
+			row.className = "table-row";
+		}
 
 		var image = layoutClone.getElementsByTagName("img")[0];
 		var instructorName = layoutClone.getElementsByTagName("h3")[0];
@@ -29,7 +35,10 @@ function layoutInflator(data, template, holder){
 		instructorName.innerHTML = "<b>" + data[i].firstName + " " + data[i].lastName + "</b>";
 		instructorDescription.innerHTML = data[i].description;
 
-		document.getElementById(holder).appendChild(layoutClone);
+		row.appendChild(layoutClone);
+		
+		if((i + 1) % 3 == 0)
+			document.getElementById(holder).appendChild(row);
 	}
 	layout.style.display = "none";
 }

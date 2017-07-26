@@ -15,23 +15,50 @@
 	<script src="scripts/instructorScripts.js"></script>
 
 	<style>
-		.center{
-			position: relative;
+		.table-row{
+			display: table;
+			table-layout: fixed;
+			width: 100%;
+			margin-bottom: 10px;
 		}
-		.center p{
-			position: absolute;
-			top: 50%;
-			transform: translateY(-50%);
+		.table-cell{
+			display: table-cell;
+			padding: 10px;
+			margin: 10px;
 		}
-		.center img{
-			position: absolute;
-			top: 50%;
-			transform: translateY(-50%);
+		@media only screen and (max-width: 600px){
+			.table-cell{
+				display: block;
+			}
 		}
-		.center h3{
-			position: absolute;
-			top: 50%;
-			transform: translateY(-50%);
+		.img-scalable{
+			text-align: center;
+			max-width: 100%;
+			display: block;
+			height: auto;
+			margin: 0 auto;
+		}
+
+		.bg-instructors{
+			background-color: #ffffff;
+			padding-right: 50px;
+			padding-left: 50px;
+			padding-top: 120px;
+			padding-bottom: 70px;
+		}
+		.bg-instructors-text h1{
+			font-size: 27px;
+			margin-bottom: 50px;
+		}
+
+		.bg-instructors-text h3{
+
+			font-size: 18px;
+		}
+
+		.bg-instructors-text p{
+
+			font-size: 16px;
 		}
 	</style>
 
@@ -53,24 +80,28 @@
 	</nav>
 
 	<!--begin template engine-->
-	<div class="container-fluid bg-about bg-about-text">
-		<div id="instructor-container"> 
-			<div class="row bg-staff-card center" id="instructor-template">
-				<div class="vertical-center col-sm-3">
-					<img class="text-center img-responsive staff-image" src="" alt="instructor_image"/>
-				</div>
-				<div class="vertical-center col-sm-9">
-					<h3>Instructor Name</h3>
-					<p>Instructor Description</p>
-				</div>
+	<div class="container-fluid">
+		<div id="instructor-container" class="bg-instructors bg-instructors-text table"> 
+			
+			<div class="table-row" id="row-holder">
+
 			</div>
+
+			<div id="instructor-template" class="text-center table-cell">
+				<img class="staff-image img-scalable" src="images/staff/2017/akshathjain.jpg" alt="instructor_image"/>
+
+				<h3>Akshath Jain</h3>
+				<p>Akshath is a rising senior at North Allegheny Senior High School and is one of the most experienced members of the varsity North Allegheny Speech and Debate teams. He is looking forward to teaching at PFI this year!Akshath is a rising senior at North Allegheny Senior High School and is one of the most experienced members of the varsity North Allegheny Speech and Debate teams. He is looking forward to teaching at PFI this year!Akshath is a rising senior at North Allegheny Senior High School and is one of the most experienced members of the varsity North Allegheny Speech and Debate teams. He is looking forward to teaching at PFI this year!</p>
+			</div>
+			
 		</div>
 	</div>
+</div>
 
-	<footer class="container-fluid bg-footer bg-footer-text">
-		<p>
-			©2017 Pittsburgh Forensics Institute. All rights reserved. Designed and developed by Akshath Jain.
-		</p>
-	</footer>
+<footer class="container-fluid bg-footer bg-footer-text">
+	<p>
+		©2017 Pittsburgh Forensics Institute. All rights reserved. Designed and developed by Akshath Jain.
+	</p>
+</footer>
 
 </body>
