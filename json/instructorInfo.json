@@ -3,7 +3,7 @@
 		"lastName":"Jain",
 		"firstName":"Akshath",
 		"image":"akshathjain.jpg",
-		"description":"Akshath is currently a rising senior and one of the most experienced members of the North Allegheny Varsity Speech and Debate Team. After debating for nearly five years, Akshath now enjoys coaching the younger members of the team to help them hone their skills. In addition, to actively teaching, Akshath is an avid Public Forum Debater, and has won numerous accolades at both the local, state, and national levels. For example, just this past year, Akshath went undefeated in Public Forum Debate at the Moon Area Speech and Debate Tournament and was in the top 20 for Public Forum Debate for George Mason University National Speech and Debate Tournament.",
+		"description":"Akshath is currently a rising senior at North Allegheny and one of the most skilled members of the North Allegheny Varsity Speech and Debate Team. After debating for nearly five years, Akshath now enjoys coaching the young, aspiring members of the team to help them hone in their skills. In addition to teaching, Akshath is an avid Public Forum Debater, and has won numerous accolades at the local, state, and national levels. Just this past year, Akshath went undefeated in Public Forum Debate at the Moon Area Tournament, finished in the top 20 at the George Mason University National Speech and Debate Tournament, and qualified for both the PHSSL state tournament and CFL Grand National Tournament.",
 		"onclick":"window.location.assign('http://akshathjain.com');"
 	},
 	{
@@ -71,5 +71,11 @@
 		"firstName":"Elizabeth",
 		"image":"elizabethguo.jpg",
 		"description":"Liz Guo is an upcoming senior with 4 years of debate experience. Since her joining in 8th grade, this will be her 5th year of extemp, her favorite event. With extemp, she has competed both on the local and national level, qualifying in 2nd place for the CFl Nationals and participating in various large tournaments such as Yale, Harvard, GMU, etc. With congress, she also competed in the NSDA Nationals after placing 3rd in the districts. Outside of debate, Liz has a variety of interests, having taken piano, acting, and martial arts lessons."
+	},
+	{
+		"lastName":"Mittal",
+		"firstName":"Siddharth",
+		"image":"siddharthmittal.jpg",
+		"description":"Siddharth Mittal is a rising junior at North Allegheny School District. He competes in public forum and has done so for one year in middle school as well as two years in high school. He has attended many local tournaments and some national tournaments including the 2017 Harvard Invitational and the GMU invitational. He is excited to be working at PFI this year in order to help students achieve the highest standard of their public speaking ability."
 	}
 ]
