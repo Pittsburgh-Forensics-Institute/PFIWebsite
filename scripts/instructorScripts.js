@@ -27,19 +27,36 @@ function layoutInflator(data, template, holder){
 			row.className = "table-row";
 		}
 
+		//obtain individual elements from layout
 		var image = layoutClone.getElementsByTagName("img")[0];
 		var instructorName = layoutClone.getElementsByTagName("h3")[0];
 		var instructorDescription = layoutClone.getElementsByTagName("p")[0];
 
 		image.src = "images/staff/2017/" + data[i].image;
+		if(data[i].link != undefined){ //if image contains a link
+			var link = data[i].link;
+			image.onclick = function(){ window.location.assign(link); }
+			image.className += ' clickable';
+		}
+
 		instructorName.innerHTML = "<b>" + data[i].firstName + " " + data[i].lastName + "</b>";
+		if(data[i].link != undefined) //if name should contain an external link
+			instructorName.innerHTML = "<b><a style='color: #333333;' href=" + data[i].link + ">"+ data[i].firstName + " " + data[i].lastName + "</a></b>";
+
 		instructorDescription.innerHTML = data[i].description;
 
 		row.appendChild(layoutClone);
 		
 		if((i + 1) % 3 == 0 || i == data.length - 1){
+			//add empty cells to fill the row if need be
+			for(var j = 3 - row.childElementCount; j > 0; j--){
+				var temp = document.createElement("DIV");
+				temp.className = "table-cell";
+				row.appendChild(temp);
+			}
+			
 			document.getElementById(holder).appendChild(row);
 		}
 	}
-	layout.style.display = "none";
+	layout.style.display = "none"; //hide the template element
 }

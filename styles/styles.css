@@ -227,14 +227,6 @@ body{
 	font-size: 16px;
 }
 
-.bg-staff-card{
-	background-color: #F5F5F5;
-	margin: 5px;
-	padding: 10px;
-	margin-bottom: 15px;
-	box-shadow: 0px 7px 10px rgba(0,0,0,0.2);
-}
-
 /* contact styles*/
 .bg-contact{
 	background-color: #F2F5F7;
