@@ -12,6 +12,7 @@ $(document).ready(function(){
 			return a.lastName.localeCompare(b.lastName);
 		})
 		layoutInflator(data, 'instructor-template', 'instructor-container');
+		document.getElementById("loader").style.display = "none"; //hide the loader
 	});
 });
 
@@ -22,6 +23,8 @@ function layoutInflator(data, template, holder){
 	var row = null;
 	for(var i = 0; i < data.length; i++){
 		var layoutClone = layout.cloneNode(true);
+		layoutClone.style.display = "";
+
 		if(i % 3 == 0){
 			row = document.createElement("DIV");
 			row.className = "table-row";
