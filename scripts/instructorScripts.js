@@ -6,7 +6,7 @@ Purpose: automatically load in instructor information
 
 $(document).ready(function(){
 	//get json
-	$.getJSON('http://pghforensics.org/json/instructorInfo.json', function(data){
+	$.getJSON('https://pghforensics.org/json/instructorInfo.json', function(data){
 		//layout inflator
 		data.sort(function(a, b){
 			return a.lastName.localeCompare(b.lastName);
