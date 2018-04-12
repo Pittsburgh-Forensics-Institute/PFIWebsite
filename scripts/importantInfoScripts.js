@@ -5,7 +5,7 @@ Purpose: scripts to future proof the PFI websites - i.e. create script to automa
 */
 
 $(document).ready(function(){
-	$.getJSON("https://raw.githubusercontent.com/akshathjain/PFIWebsite/newchanges/json/importantInfo.json?token=AKI1jDwrxvtLKNy5ezRd9yGm_oqwVmdrks5a2LP_wA%3D%3D", function(data){
+	$.getJSON("https://raw.githubusercontent.com/akshathjain/PFIWebsite/newchanges/json/importantInfo.json?token=AKI1jA7RQ3E1AGiDOX_ut3xZNsyojL4Nks5a2L3mwA%3D%3D", function(data){
 		
 		var yearData = data[data.length - 1]; //get data for current year
 
