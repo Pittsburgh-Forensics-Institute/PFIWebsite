@@ -19,7 +19,10 @@ $(document).ready(function(){
 		document.getElementById("when-description").innerHTML = whenString;
 
 		//assign location to link and map
-		
+		var whereString = "All lessons will be held at " + yearData.addressName;
+		document.getElementById("where-description").innerHTML = whereString;
+		document.getElementById("where-address").innerHTML = yearData.address;
+		document.getElementById("map-iframe").src = yearData.googleMapsLink;
 
 	});
 });
