@@ -4,6 +4,8 @@
 		"signup":"https://goo.gl/forms/fGtRRlAaa4dLMaGk2",
 		"startDate":"July 31st",
 		"endDate":"August 11th",
+		"startTime":"8:30am",
+		"endTime":"5:30pm",
 		"address":"4200 Fifth Ave, Pittsburgh, PA 15260"
 	},
 	{
@@ -12,6 +14,8 @@
 		"signup":"https://akshathjain.com",
 		"startDate":"July 30th",
 		"endDate":"August 10th",
+		"startTime":"8:30am",
+		"endTime":"5:30pm",
 		"address":"1727 Holmes Drive, Sewickley, PA 15143"
 	}
 ]

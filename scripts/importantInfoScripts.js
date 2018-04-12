@@ -12,10 +12,10 @@ $(document).ready(function(){
 		//assign signup link to button
 		document.getElementById("signup-button").href = yearData.signup;
 
-		//assign dates
-		var startDate = new Date(yearData.startDate);
-		var endDate = new Date(yearData.endDate);
+		//assign dates and times
+		var whenString = "Sessions will be held Monday to Friday from " + yearData.startTime + " - " + yearData.endTime + " starting on " + yearData.startDate + " and ending on " + yearData.endDate + ".";
 
-		console.log(startDate);
+		document.getElementById("when-description").innerHTML = whenString;
+
 	});
 });
