@@ -7,9 +7,16 @@ Purpose: scripts to future proof the PFI websites - i.e. create script to automa
 $(document).ready(function(){
 	$.getJSON("https://raw.githubusercontent.com/akshathjain/PFIWebsite/newchanges/json/importantInfo.json?token=AKI1jA7RQ3E1AGiDOX_ut3xZNsyojL4Nks5a2L3mwA%3D%3D", function(data){
 		
-		var yearData = data[data.length - 1]; //get data for current year
-
-		console.log(yearData);
+		//get hash (e.g. pghforensics/#2017)
+		var hash = window.location.hash.substring(1);
+		var yearData;
+		if(hash !== ""){
+			for (var i = data.length - 1; i >= 0; i--) {
+				if(data[i].year == hash)
+					yearData = data[i];
+			}
+		}else
+			yearData = data[data.length - 1]; //get data for current year
 
 		//assign signup link to button
 		document.getElementById("signup-button").href = yearData.signup;
