@@ -6,7 +6,8 @@
 		"endDate":"August 11th",
 		"startTime":"8:30am",
 		"endTime":"5:30pm",
-		"address":"4200 Fifth Ave, Pittsburgh, PA 15260"
+		"address":"4200 Fifth Ave, Pittsburgh, PA 15260",
+		"addressName":"the Cathedral of Learning, University of Pittsburgh"
 	},
 	{
 
@@ -16,6 +17,7 @@
 		"endDate":"August 10th",
 		"startTime":"8:30am",
 		"endTime":"5:30pm",
-		"address":"1727 Holmes Drive, Sewickley, PA 15143"
+		"address":"1727 Holmes Drive, Sewickley, PA 15143",
+		"addressName":"the Cathedral of Learning, University of Pittsburgh"
 	}
 ]
