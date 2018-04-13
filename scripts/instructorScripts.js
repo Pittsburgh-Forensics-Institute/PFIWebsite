@@ -6,7 +6,16 @@ Purpose: automatically load in instructor information
 
 $(document).ready(function(){
 	//get json
-	$.getJSON('https://pghforensics.org/json/instructorInfo.json', function(data){
+	$.getJSON('https://raw.githubusercontent.com/akshathjain/PFIWebsite/newchanges/json/instructorInfo.json?token=AKI1jLDIpAkrSyQ_OGoZ1jB9SCZARpdEks5a2ffnwA%3D%3D', function(dataSet){
+
+		//get data from current year
+		var data = dataSet[dataSet.length - 2].data;
+
+		//update dropdown year selector
+		var yearSelections = document.getElementById("year-selections");
+		for(var i = 0; i < dataSet.length; i++)
+			yearSelections.innerHTML += "<li><a href='#" + dataSet[i].year + "'>" + dataSet[i].year + "</a></li>";
+
 		//layout inflator
 		data.sort(function(a, b){
 			return a.lastName.localeCompare(b.lastName);
