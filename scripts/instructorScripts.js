@@ -3,23 +3,28 @@ Name: Akshath Jain
 Date: 7/23/17
 Purpose: automatically load in instructor information 
 */
+var dataSet;
+var year;
 
 $(document).ready(function(){
 	//get json
-	$.getJSON('https://raw.githubusercontent.com/akshathjain/PFIWebsite/newchanges/json/instructorInfo.json?token=AKI1jLDIpAkrSyQ_OGoZ1jB9SCZARpdEks5a2ffnwA%3D%3D', function(dataSet){
+	$.getJSON('https://pghforensics.org/json/instructorInfo.json', function(ds){
+		dataSet = ds;
 
 		//get data from current year
-		var data = dataSet[dataSet.length - 2].data;
+		year = dataSet[dataSet.length - 1].year;
+		var data = dataSet[dataSet.length - 1].data;
+		document.getElementById('year-display').innerHTML = "Year: " + year + "&nbsp;&nbsp;<span class='caret'></span>";
 
 		//update dropdown year selector
 		var yearSelections = document.getElementById("year-selections");
-		for(var i = 0; i < dataSet.length; i++)
-			yearSelections.innerHTML += "<li><a href='#" + dataSet[i].year + "'>" + dataSet[i].year + "</a></li>";
+		for(var i = dataSet.length - 1; i >= 0; i--)
+			yearSelections.innerHTML += "<li><a href='#' onclick='changeYearView(" + dataSet[i].year + ");'>" + dataSet[i].year + "</a></li>";
 
 		//layout inflator
 		data.sort(function(a, b){
 			return a.lastName.localeCompare(b.lastName);
-		})
+		});
 		layoutInflator(data, 'instructor-template', 'instructor-container');
 		document.getElementById("loader").style.display = "none"; //hide the loader
 	});
@@ -28,6 +33,9 @@ $(document).ready(function(){
 function layoutInflator(data, template, holder){
 	//populate the data
 	var layout = document.getElementById(template);
+
+	//clear the holder
+	document.getElementById(holder).innerHTML = "";
 
 	var row = null;
 	for(var i = 0; i < data.length; i++){
@@ -44,7 +52,7 @@ function layoutInflator(data, template, holder){
 		var instructorName = layoutClone.getElementsByTagName("h3")[0];
 		var instructorDescription = layoutClone.getElementsByTagName("p")[0];
 
-		image.src = "images/staff/2017/" + data[i].image;
+		image.src = "images/staff/" + year + "/" + data[i].image;
 		if(data[i].link != undefined){ //if image contains a link
 			var link = data[i].link;
 			image.onclick = function(){ window.location.assign(link); }
@@ -71,4 +79,29 @@ function layoutInflator(data, template, holder){
 		}
 	}
 	layout.style.display = "none"; //hide the template element
+}
+
+//change the year view 
+function changeYearView(yr){
+	//change the dropdown view
+	document.getElementById('year-display').innerHTML = "Year: " + year + "&nbsp;&nbsp;<span class='caret'></span>";
+
+	this.year = yr
+
+	var data;
+	for(var i = 0; i < dataSet.length; i++)
+		if(dataSet[i].year == year){
+			data = dataSet[i].data;
+			break;
+		}
+
+
+	document.getElementById("loader").style.display = "visible"; //hide the loader	
+
+	//layout inflator
+	data.sort(function(a, b){
+		return a.lastName.localeCompare(b.lastName);
+	});
+	layoutInflator(data, 'instructor-template', 'instructor-container');
+	document.getElementById("loader").style.display = "none"; //hide the loader	
 }

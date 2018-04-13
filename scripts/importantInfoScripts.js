@@ -5,7 +5,7 @@ Purpose: scripts to future proof the PFI websites - i.e. create script to automa
 */
 
 $(document).ready(function(){
-	$.getJSON("https://raw.githubusercontent.com/akshathjain/PFIWebsite/newchanges/json/importantInfo.json?token=AKI1jA7RQ3E1AGiDOX_ut3xZNsyojL4Nks5a2L3mwA%3D%3D", function(data){
+	$.getJSON("https://pghforensics.org/importantInfo.json", function(data){
 		
 		//get hash (e.g. pghforensics/#2017)
 		var hash = window.location.hash.substring(1);
