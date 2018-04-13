@@ -1,87 +1,116 @@
 [
 	{
-		"lastName":"Jain",
-		"firstName":"Akshath",
-		"image":"akshathjain.JPG",
-		"description":"Akshath is currently a rising senior at North Allegheny and one of the most skilled members of the North Allegheny Varsity Speech and Debate Team. After debating for nearly five years, Akshath now enjoys coaching the young, aspiring members of the team to help them hone in their skills. In addition to teaching, Akshath is an avid Public Forum Debater, and has won numerous accolades at the local, state, and national levels. Just this past year, Akshath went undefeated in Public Forum Debate at the Moon Area Tournament, finished in the top 20 at the George Mason University National Speech and Debate Tournament, and qualified for both the PHSSL state tournament and CFL Grand National Tournament.",
-		"link":"http://akshathjain.com"
+		"year":"2017",
+		"data": [
+			{
+				"lastName":"Jain",
+				"firstName":"Akshath",
+				"image":"akshathjain.JPG",
+				"description":"Akshath is currently a rising senior at North Allegheny and one of the most skilled members of the North Allegheny Varsity Speech and Debate Team. After debating for nearly five years, Akshath now enjoys coaching the young, aspiring members of the team to help them hone in their skills. In addition to teaching, Akshath is an avid Public Forum Debater, and has won numerous accolades at the local, state, and national levels. Just this past year, Akshath went undefeated in Public Forum Debate at the Moon Area Tournament, finished in the top 20 at the George Mason University National Speech and Debate Tournament, and qualified for both the PHSSL state tournament and CFL Grand National Tournament.",
+				"link":"http://akshathjain.com"
+			},
+			{
+				"lastName":"Li",
+				"firstName":"Frank",
+				"image":"frankli.jpg",
+				"description":"Frank is currently a rising senior and one of the most experienced members of the North Allegheny Speech and Debate team. He has been extremely active in teaching and helping younger members of the team. In 10th grade, Frank was an event leader for public forum debate for middle school team. The subsequent year Frank was the event leader for policy debate for the high school team. In addition, Frank has reached elimination rounds at the Harvard National Tournament, finished 10th in the state for policy debate, and achieved top 4 in the International Public Policy Forum. Frank can't wait to continue teaching the next generation of debaters this summer!"
+			},
+			{
+				"lastName":"Fu",
+				"firstName":"Joy",
+				"image":"joyfu.jpg",
+				"description":"Joy Fu has been debating on the North Allegheny Speech and Debate team for 2 years, focusing on Lincoln-Douglas debate. She's had success on both the local and national circuits, placing at multiple tournaments. This will be her second year as an instructor at PFI."
+			},
+			{
+				"lastName":"Mahajan",
+				"firstName":"Abhishek",
+				"image":"abhishekmahajan.jpg",
+				"description":"Abhishek is a rising senior at North Allegheny Senior High school and is going into his 4th year of debate. This past school year Abhishek was the event leader and main instructor for Public Forum on the middle school debate team.  In addition to being heavily involved in teaching debate, Abhishek also loves competing on the debate circuit. This year he placed at several local tournaments and qualified for the Grand National Tournament,  the State Tournament, and placed in the top 5 at the National Speech and Debate Qualifier. In addition to Public Forum debate, Abhishek also enjoys competing in other forms of debate, this year he went undefeated in Parliamentary Debate at the PHSSL State Qualifier."
+			},
+			{
+				"lastName":"Blackburn",
+				"firstName":"Mason",
+				"image":"masonblackburn.JPG",
+				"description":"Mason Blackburn is a rising senior at North Allegheny Senior High school. He has three years of experience in forensics with Extemporaneous speaking as well as Impromptu and Commentary; this includes many tournament placings, most notably a fifth place at the State tournament in Impromptu. He taught Extemp at PFI last year and continued teaching in North Allegheny's middle school program throughout the year. Outside of forensics, Mason has played soccer for 11 years and enjoys video games. Past high school, Mason plans to pursue economics and international affairs."
+			},
+			{
+				"lastName":"Yu",
+				"firstName":"Victor",
+				"image":"victoryu.png",
+				"description":"Victor Yu is an upcoming junior debater in Public Forum. He has 3 years of debate experience and has taught at PFI previously for one year. He has been to multiple national tournaments over his 2 years of doing high school debate and has broken to elimination rounds in 2, Yale and Walt Whitman. He is very committed into helping future debaters achieve their full potential and to help anyone who wants to improve their debating/speaking skills."
+			},
+			{
+				"lastName":"Fernando",
+				"firstName":"Adelle",
+				"image":"adellefernando.jpg",
+				"description":"Adelle Fernando is a rising junior on the North Allegheny Speech and Debate team. Her primary event is duo interpretation but she has performed both DI and HI. Adelle has competed avidly in both the local and national circuits, qualifying to states and CFL Nationals this past year. She has also reached out rounds at the Wake Forest and PA State tournaments. Adelle has taught NA middle school forensics and NAFI, and attended the GMIF speech camp last summer, giving her a wide perspective of speech teaching styles. Adelle is excited to share her knowledge and expertise in interpretation with PFI this summer!"
+			},
+			{
+				"lastName":"Flagg",
+				"firstName":"Alex",
+				"image":"alexflagg.jpg",
+				"description":"Alex Flagg is a rising junior at North Allegheny High School.  She has been a part of of their forensics team for two years now, competing in Dramatic Interpretation.  A former camper, Alex is vey excited to continue to be a part of PFI and to impart whatever interp wisdom she can onto a new group of students."
+			},
+			{
+				"lastName":"Sircar",
+				"firstName":"Adrija",
+				"image":"adrijasircar.PNG",
+				"description":"Adrija Sircar, a rising senior, has participated in Public Forum, Congressional and Parliamentary Debate for the past three years. She has qualified for state tournaments in both Congressional and Parliamentary Debate, with an undefeated 3-0 record in Parliamentary Debate at the 2017 Regional Debate Tournament. She has also judged Lincoln-Douglas debate during middle school debate tournaments. In addition to debate, Adrija also immensely enjoys playing Western Classical Music on the piano and singing Indian classical music in Hindustani Chhota Khayal and Bada Khayal form. Adrija is also actively engaged in many volunteering activities in her community. Adrija has a strong interest in medicine,has actively participated over the years in helping with medical care at a regional hospital, and hopes to major in pre-medicine in college."
+			},
+			{
+				"lastName":"Ricci",
+				"firstName":"Eric",
+				"image":"ericricci.JPG",
+				"description":"Eric Ricci has been competing with the NA Debate Team for over 5 years, winning accolades on a local, state and national level.  He has 3 years of coaching experience in LD debate, and helps young aspiring debaters achieve success and realize their potential.  He is extremely excited to help coach at PFI this year, and looks forward to working with you all!"
+			},
+			{
+				"lastName":"Gao",
+				"firstName":"Elaine",
+				"image":"elainegao.png",
+				"description":"Elaine Gao is a rising senior at the North Allegheny Senior High School, and has been a member of the North Allegheny Speech and Debate team for three years. She has competed in Original Oratory all three years, making finals at several local tournaments including Central Catholic, Mercer, West Allegheny, and Pine Richland. Later in the season, she was elected to compete at PHSSL Districts, CFL Districts, and NSDA Districts, and qualified to compete at NCFLs in Kentucky. Elaine will be the 2017-2018 Publicity and Recruiting Officer for the team, and is excited to work with the orators attending PFI."
+			},
+			{
+				"lastName":"Guo",
+				"firstName":"Elizabeth",
+				"image":"elizabethguo.jpg",
+				"description":"Liz Guo is an upcoming senior with 4 years of debate experience. Since her joining in 8th grade, this will be her 5th year of extemp, her favorite event. With extemp, she has competed both on the local and national level, qualifying in 2nd place for the CFl Nationals and participating in various large tournaments such as Yale, Harvard, GMU, etc. With congress, she also competed in the NSDA Nationals after placing 3rd in the districts. Outside of debate, Liz has a variety of interests, having taken piano, acting, and martial arts lessons."
+			},
+			{
+				"lastName":"Mittal",
+				"firstName":"Siddharth",
+				"image":"siddharthmittal.jpg",
+				"description":"Siddharth Mittal is a rising junior at North Allegheny School District. He competes in public forum and has done so for one year in middle school as well as two years in high school. He has attended many local tournaments and some national tournaments including the 2017 Harvard Invitational and the GMU invitational. He is excited to be working at PFI this year in order to help students achieve the highest standard of their public speaking ability."
+			},
+			{
+				"lastName":"Li",
+				"firstName":"Ella",
+				"image":"ellali.PNG",
+				"description":"Ella Li is a rising junior at North Allegheny Senior High School. She joined the NA Speech and Debate team her sophomore year and mainly focused on competing in Extemporaneous Speaking. This is Ella's first year teaching at PFI and she can't wait to spill out all of the knowledge she has about this event!"
+			}
+		]
 	},
 	{
-		"lastName":"Li",
-		"firstName":"Frank",
-		"image":"frankli.jpg",
-		"description":"Frank is currently a rising senior and one of the most experienced members of the North Allegheny Speech and Debate team. He has been extremely active in teaching and helping younger members of the team. In 10th grade, Frank was an event leader for public forum debate for middle school team. The subsequent year Frank was the event leader for policy debate for the high school team. In addition, Frank has reached elimination rounds at the Harvard National Tournament, finished 10th in the state for policy debate, and achieved top 4 in the International Public Policy Forum. Frank can't wait to continue teaching the next generation of debaters this summer!"
-	},
-	{
-		"lastName":"Fu",
-		"firstName":"Joy",
-		"image":"joyfu.jpg",
-		"description":"Joy Fu has been debating on the North Allegheny Speech and Debate team for 2 years, focusing on Lincoln-Douglas debate. She's had success on both the local and national circuits, placing at multiple tournaments. This will be her second year as an instructor at PFI."
-	},
-	{
-		"lastName":"Mahajan",
-		"firstName":"Abhishek",
-		"image":"abhishekmahajan.jpg",
-		"description":"Abhishek is a rising senior at North Allegheny Senior High school and is going into his 4th year of debate. This past school year Abhishek was the event leader and main instructor for Public Forum on the middle school debate team.  In addition to being heavily involved in teaching debate, Abhishek also loves competing on the debate circuit. This year he placed at several local tournaments and qualified for the Grand National Tournament,  the State Tournament, and placed in the top 5 at the National Speech and Debate Qualifier. In addition to Public Forum debate, Abhishek also enjoys competing in other forms of debate, this year he went undefeated in Parliamentary Debate at the PHSSL State Qualifier."
-	},
-	{
-		"lastName":"Blackburn",
-		"firstName":"Mason",
-		"image":"masonblackburn.JPG",
-		"description":"Mason Blackburn is a rising senior at North Allegheny Senior High school. He has three years of experience in forensics with Extemporaneous speaking as well as Impromptu and Commentary; this includes many tournament placings, most notably a fifth place at the State tournament in Impromptu. He taught Extemp at PFI last year and continued teaching in North Allegheny's middle school program throughout the year. Outside of forensics, Mason has played soccer for 11 years and enjoys video games. Past high school, Mason plans to pursue economics and international affairs."
-	},
-	{
-		"lastName":"Yu",
-		"firstName":"Victor",
-		"image":"victoryu.png",
-		"description":"Victor Yu is an upcoming junior debater in Public Forum. He has 3 years of debate experience and has taught at PFI previously for one year. He has been to multiple national tournaments over his 2 years of doing high school debate and has broken to elimination rounds in 2, Yale and Walt Whitman. He is very committed into helping future debaters achieve their full potential and to help anyone who wants to improve their debating/speaking skills."
-	},
-	{
-		"lastName":"Fernando",
-		"firstName":"Adelle",
-		"image":"adellefernando.jpg",
-		"description":"Adelle Fernando is a rising junior on the North Allegheny Speech and Debate team. Her primary event is duo interpretation but she has performed both DI and HI. Adelle has competed avidly in both the local and national circuits, qualifying to states and CFL Nationals this past year. She has also reached out rounds at the Wake Forest and PA State tournaments. Adelle has taught NA middle school forensics and NAFI, and attended the GMIF speech camp last summer, giving her a wide perspective of speech teaching styles. Adelle is excited to share her knowledge and expertise in interpretation with PFI this summer!"
-	},
-	{
-		"lastName":"Flagg",
-		"firstName":"Alex",
-		"image":"alexflagg.jpg",
-		"description":"Alex Flagg is a rising junior at North Allegheny High School.  She has been a part of of their forensics team for two years now, competing in Dramatic Interpretation.  A former camper, Alex is vey excited to continue to be a part of PFI and to impart whatever interp wisdom she can onto a new group of students."
-	},
-	{
-		"lastName":"Sircar",
-		"firstName":"Adrija",
-		"image":"adrijasircar.PNG",
-		"description":"Adrija Sircar, a rising senior, has participated in Public Forum, Congressional and Parliamentary Debate for the past three years. She has qualified for state tournaments in both Congressional and Parliamentary Debate, with an undefeated 3-0 record in Parliamentary Debate at the 2017 Regional Debate Tournament. She has also judged Lincoln-Douglas debate during middle school debate tournaments. In addition to debate, Adrija also immensely enjoys playing Western Classical Music on the piano and singing Indian classical music in Hindustani Chhota Khayal and Bada Khayal form. Adrija is also actively engaged in many volunteering activities in her community. Adrija has a strong interest in medicine,has actively participated over the years in helping with medical care at a regional hospital, and hopes to major in pre-medicine in college."
-	},
-	{
-		"lastName":"Ricci",
-		"firstName":"Eric",
-		"image":"ericricci.JPG",
-		"description":"Eric Ricci has been competing with the NA Debate Team for over 5 years, winning accolades on a local, state and national level.  He has 3 years of coaching experience in LD debate, and helps young aspiring debaters achieve success and realize their potential.  He is extremely excited to help coach at PFI this year, and looks forward to working with you all!"
-	},
-	{
-		"lastName":"Gao",
-		"firstName":"Elaine",
-		"image":"elainegao.png",
-		"description":"Elaine Gao is a rising senior at the North Allegheny Senior High School, and has been a member of the North Allegheny Speech and Debate team for three years. She has competed in Original Oratory all three years, making finals at several local tournaments including Central Catholic, Mercer, West Allegheny, and Pine Richland. Later in the season, she was elected to compete at PHSSL Districts, CFL Districts, and NSDA Districts, and qualified to compete at NCFLs in Kentucky. Elaine will be the 2017-2018 Publicity and Recruiting Officer for the team, and is excited to work with the orators attending PFI."
-	},
-	{
-		"lastName":"Guo",
-		"firstName":"Elizabeth",
-		"image":"elizabethguo.jpg",
-		"description":"Liz Guo is an upcoming senior with 4 years of debate experience. Since her joining in 8th grade, this will be her 5th year of extemp, her favorite event. With extemp, she has competed both on the local and national level, qualifying in 2nd place for the CFl Nationals and participating in various large tournaments such as Yale, Harvard, GMU, etc. With congress, she also competed in the NSDA Nationals after placing 3rd in the districts. Outside of debate, Liz has a variety of interests, having taken piano, acting, and martial arts lessons."
-	},
-	{
-		"lastName":"Mittal",
-		"firstName":"Siddharth",
-		"image":"siddharthmittal.jpg",
-		"description":"Siddharth Mittal is a rising junior at North Allegheny School District. He competes in public forum and has done so for one year in middle school as well as two years in high school. He has attended many local tournaments and some national tournaments including the 2017 Harvard Invitational and the GMU invitational. He is excited to be working at PFI this year in order to help students achieve the highest standard of their public speaking ability."
-	},
-	{
-		"lastName":"Li",
-		"firstName":"Ella",
-		"image":"ellali.PNG",
-		"description":"Ella Li is a rising junior at North Allegheny Senior High School. She joined the NA Speech and Debate team her sophomore year and mainly focused on competing in Extemporaneous Speaking. This is Ella's first year teaching at PFI and she can't wait to spill out all of the knowledge she has about this event!"
+		"year":"2018",
+		"data":[
+			{
+				"lastName":"Jain",
+				"firstName":"Akshath",
+				"image":"akshathjain.JPG",
+				"description":"Akshath is currently a rising senior at North Allegheny and one of the most skilled members of the North Allegheny Varsity Speech and Debate Team. After debating for nearly five years, Akshath now enjoys coaching the young, aspiring members of the team to help them hone in their skills. In addition to teaching, Akshath is an avid Public Forum Debater, and has won numerous accolades at the local, state, and national levels. Just this past year, Akshath went undefeated in Public Forum Debate at the Moon Area Tournament, finished in the top 20 at the George Mason University National Speech and Debate Tournament, and qualified for both the PHSSL state tournament and CFL Grand National Tournament.",
+				"link":"http://akshathjain.com"
+			},
+			{
+				"lastName":"Li",
+				"firstName":"Frank",
+				"image":"frankli.jpg",
+				"description":"Frank is currently a rising senior and one of the most experienced members of the North Allegheny Speech and Debate team. He has been extremely active in teaching and helping younger members of the team. In 10th grade, Frank was an event leader for public forum debate for middle school team. The subsequent year Frank was the event leader for policy debate for the high school team. In addition, Frank has reached elimination rounds at the Harvard National Tournament, finished 10th in the state for policy debate, and achieved top 4 in the International Public Policy Forum. Frank can't wait to continue teaching the next generation of debaters this summer!"
+			},
+			{
+				"lastName":"Fu",
+				"firstName":"Joy",
+				"image":"joyfu.jpg",
+				"description":"Joy Fu has been debating on the North Allegheny Speech and Debate team for 2 years, focusing on Lincoln-Douglas debate. She's had success on both the local and national circuits, placing at multiple tournaments. This will be her second year as an instructor at PFI."
+			}
+		]
 	}
 ]
