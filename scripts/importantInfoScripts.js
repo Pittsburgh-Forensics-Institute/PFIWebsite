@@ -15,6 +15,8 @@ $(document).ready(function(){
 				if(data[i].year == hash)
 					yearData = data[i];
 			}
+			if(yearData == undefined)
+				yearData = data[data.length - 1];
 		}else
 			yearData = data[data.length - 1]; //get data for current year
 
