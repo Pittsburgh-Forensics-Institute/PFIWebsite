@@ -83,10 +83,11 @@ function layoutInflator(data, template, holder){
 
 //change the year view 
 function changeYearView(yr){
+	this.year = yr
+
+	
 	//change the dropdown view
 	document.getElementById('year-display').innerHTML = "Year: " + year + "&nbsp;&nbsp;<span class='caret'></span>";
-
-	this.year = yr
 
 	var data;
 	for(var i = 0; i < dataSet.length; i++)
