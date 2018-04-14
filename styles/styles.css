@@ -48,6 +48,12 @@ body{
 	background-color: rgba(255,255,255,0) !important;
 }
 
+/* scroll spy */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color: #F0AD4E !important;
+	background-color: rgba(0,0,0,0);
+}
+
 /* home styles*/
 .bg-home{
 	background: url("../images/books.jpg");
