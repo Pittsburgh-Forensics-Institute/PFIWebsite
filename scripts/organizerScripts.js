@@ -4,9 +4,94 @@ Date: 4/14/18
 Purpose: scripts to automatically load organizers in index.html
 */
 
-$(document).ready(function(){
-	$.getJSON("https://raw.githubusercontent.com/akshathjain/PFIWebsite/master/json/instructorInfo.json?token=AKI1jDT_BKXH6__tcx7KAa0tqUPAK7UMks5a2-CdwA%3D%3D", function(data){
+var dataSet;
+var year;
 
-		
+$(document).ready(function(){
+	$.getJSON("https://raw.githubusercontent.com/akshathjain/PFIWebsite/master/json/instructorInfo.json?token=AKI1jDT_BKXH6__tcx7KAa0tqUPAK7UMks5a2-CdwA%3D%3D", function(ds){
+
+		dataSet = ds;
+		year = ds[ds.length - 1].year;
+
+		var organizerList = getOrganizers(ds[ds.length - 1].data);
+
+		//update dropdown year selector
+		document.getElementById('year-display').innerHTML = year + "&nbsp;&nbsp;<span class='caret'></span>";
+		var yearSelections = document.getElementById("year-selections");
+		for(var i = dataSet.length - 1; i >= 0; i--)
+			yearSelections.innerHTML += "<li><a href='#team' onclick='changeYearView(" + dataSet[i].year + ");'>" + dataSet[i].year + "</a></li>";
+
+
+		console.log(organizerList);
+		layoutInflator(organizerList, "organizer-template", "organizer-holder");
 	});
 });
+
+function layoutInflator(data, template, holder){
+	//populate the data
+	var layout = document.getElementById(template);
+
+	//clear the holder
+	document.getElementById(holder).innerHTML = ""; //remove all elements
+
+	for(var i = 0; i < data.length; i++){
+		var layoutClone = layout.cloneNode(true);
+		layoutClone.style.display = "";
+
+		//determine colomn spacing if there are 3 or 4 organizers (there should never be more than that)
+		layoutClone.className = "col-sm-" + (12 / data.length);
+
+		//obtain individual elements from layout
+		var image = layoutClone.getElementsByTagName("img")[0];
+		var instructorName = layoutClone.getElementsByTagName("h3")[0];
+		var email = layoutClone.getElementsByTagName("p")[1];
+
+		image.src = "images/staff/" + year + "/" + data[i].image;
+		if(data[i].link != undefined){ //if image contains a link
+			console.log('in here');
+			var link = data[i].link;
+			image.onclick = function(){ window.location.assign(link); }
+			image.className += ' clickable';
+		}
+
+		instructorName.innerHTML = "<b>" + data[i].firstName + " " + data[i].lastName + "</b>";
+		if(data[i].link != undefined) //if name should contain an external link
+			instructorName.innerHTML = "<b><a style='color: #333333;' href=" + data[i].link + ">"+ data[i].firstName + " " + data[i].lastName + "</a></b>";
+
+		email.innerHTML = "<a href='mailto:'" + data[i].email + "'>" + data[i].email + "</a>";
+		
+		layoutClone.id += i;
+
+		document.getElementById(holder).appendChild(layoutClone);
+	}
+	layout.style.display = "none"; //hide the template element
+	document.getElementById(holder).appendChild(layout); //add (hidden) template back
+}
+
+//change the year view 
+function changeYearView(yr){
+	year = yr
+	
+	//change the dropdown view
+	document.getElementById('year-display').innerHTML = year + "&nbsp;&nbsp;<span class='caret'></span>";
+
+	var data;
+	for(var i = 0; i < dataSet.length; i++){
+		if(dataSet[i].year == year){
+			data = dataSet[i].data;
+			break;
+		}
+	}
+
+	layoutInflator(getOrganizers(data), "organizer-template", "organizer-holder");
+}
+
+function getOrganizers(d){
+	var list = [];
+	for(var i = 0; i < d.length; i++){
+		console.log(d[i].isOrganizer);
+		if(d[i].isOrganizer && d[i].isOrganizer != undefined)
+			list.push(d[i]);
+	}
+	return list;
+}

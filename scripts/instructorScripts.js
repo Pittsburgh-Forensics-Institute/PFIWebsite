@@ -14,7 +14,7 @@ $(document).ready(function(){
 		//get data from current year
 		year = dataSet[dataSet.length - 1].year;
 		var data = dataSet[dataSet.length - 1].data;
-		document.getElementById('year-display').innerHTML = "Year: " + year + "&nbsp;&nbsp;<span class='caret'></span>";
+		document.getElementById('year-display').innerHTML = year + "&nbsp;&nbsp;<span class='caret'></span>";
 
 		//update dropdown year selector
 		var yearSelections = document.getElementById("year-selections");
@@ -35,7 +35,7 @@ function layoutInflator(data, template, holder){
 	var layout = document.getElementById(template);
 
 	//clear the holder
-	document.getElementById(holder).innerHTML = "";
+	document.getElementById(holder).innerHTML = ""; //remove all elements
 
 	var row = null;
 	for(var i = 0; i < data.length; i++){
@@ -79,6 +79,7 @@ function layoutInflator(data, template, holder){
 		}
 	}
 	layout.style.display = "none"; //hide the template element
+	document.getElementById(holder).appendChild(layout); //add (hidden template) back inside
 }
 
 //change the year view 

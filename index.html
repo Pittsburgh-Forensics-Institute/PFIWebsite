@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="styles/styles.css">
 	<script src="scripts/indexScripts.js"></script>
 	<script src="scripts/importantInfoScripts.js"></script>
+	<script src="scripts/organizerScripts.js"></script>
 
 	<!-- google analytics info -->
 	<script>
@@ -180,30 +181,23 @@
 	<!-- about us -->
 	<div class="container-fluid text-center bg-about bg-about-text" id="team">
 		<h1 class="text-center">TEAM</h1>
-		<div class="row">
-			<div class="col-sm-3">
-				<img class="staff-image clickable" src="images/staff/2017/akshathjain.JPG" onclick="window.location.assign('http://akshathjain.com')">
-				<h3><b><a style="color: #333333;" href="http://akshathjain.com">Akshath Jain</a></b></h3>
-				<p>Organizer / Instructor</p>
-				<p><a href="mailto:akshath@pghforensics.org">akshath@pghforensics.org</a></p>
+
+		<!-- drop down to select which year -->
+		<div class="dropdown dropdown-style">
+			<div class="btn-group">
+				
+				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="year-display">Year <span class="caret"></span></button>
+				<ul class="dropdown-menu" id="year-selections">
+				</ul>
 			</div>
-			<div class="col-sm-3">
-				<img class="staff-image" src="images/staff/2017/joyfu.jpg">
-				<h3><b>Joy Fu</b></h3>
+		</div>
+
+		<div id="organizer-holder" class="row">
+			<div class="" id="organizer-template" style="view: none">
+				<img class="staff-image" src="">
+				<h3><b></b></h3>
 				<p>Organizer / Instructor</p>
-				<p><a href="mailto:joy@pghforensics.org">joy@pghforensics.org</a></p>
-			</div>
-			<div class="col-sm-3">
-				<img class="staff-image" src="images/staff/2017/frankli.jpg">
-				<h3><b>Frank Li</b></h3>
-				<p>Organizer / Instructor</p>
-				<p><a href="mailto:frank@pghforensics.org">frank@pghforensics.org</a></p>
-			</div>
-			<div class="col-sm-3">
-				<img class="staff-image" src="images/staff/2017/abhishekmahajan.jpg">
-				<h3><b>Abhishek Mahajan</b></h3>
-				<p>Organizer / Instructor</p>
-				<p><a href="mailto:abhishek@pghforensics.org">abhishek@pghforensics.org</a></p>
+				<p><a href=""></a></p>
 			</div>
 		</div>
 	</div>
