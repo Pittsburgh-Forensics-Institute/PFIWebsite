@@ -45,6 +45,7 @@ function layoutInflator(data, template, holder){
 		if(i % 3 == 0){
 			row = document.createElement("DIV");
 			row.className = "table-row";
+			row.style.opacity = 0;
 		}
 
 		//obtain individual elements from layout
@@ -75,8 +76,16 @@ function layoutInflator(data, template, holder){
 				row.appendChild(temp);
 			}
 			
+			row.id += i;
+
 			document.getElementById(holder).appendChild(row);
+
+			//animate in
+			$("#" + row.id).animate({
+				opacity: 1
+			}, 250);
 		}
+
 	}
 	layout.style.display = "none"; //hide the template element
 	document.getElementById(holder).appendChild(layout); //add (hidden template) back inside

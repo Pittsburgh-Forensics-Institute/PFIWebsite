@@ -22,7 +22,6 @@ $(document).ready(function(){
 			yearSelections.innerHTML += "<li><a href='#team' onclick='changeYearView(" + dataSet[i].year + ");'>" + dataSet[i].year + "</a></li>";
 
 
-		console.log(organizerList);
 		layoutInflator(organizerList, "organizer-template", "organizer-holder");
 	});
 });
@@ -48,7 +47,6 @@ function layoutInflator(data, template, holder){
 
 		image.src = "images/staff/" + year + "/" + data[i].image;
 		if(data[i].link != undefined){ //if image contains a link
-			console.log('in here');
 			var link = data[i].link;
 			image.onclick = function(){ window.location.assign(link); }
 			image.className += ' clickable';
@@ -61,9 +59,14 @@ function layoutInflator(data, template, holder){
 		email.innerHTML = "<a href='mailto:'" + data[i].email + "'>" + data[i].email + "</a>";
 		
 		layoutClone.id += i;
-
 		document.getElementById(holder).appendChild(layoutClone);
+		
+		//animate in
+		$("#" + layoutClone.id).animate({
+			opacity: 1
+		}, 200);
 	}
+
 	layout.style.display = "none"; //hide the template element
 	document.getElementById(holder).appendChild(layout); //add (hidden) template back
 }
@@ -89,7 +92,6 @@ function changeYearView(yr){
 function getOrganizers(d){
 	var list = [];
 	for(var i = 0; i < d.length; i++){
-		console.log(d[i].isOrganizer);
 		if(d[i].isOrganizer && d[i].isOrganizer != undefined)
 			list.push(d[i]);
 	}
