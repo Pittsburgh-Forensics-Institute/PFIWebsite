@@ -19,7 +19,7 @@ $(document).ready(function(){
 		document.getElementById('year-display').innerHTML = year + "&nbsp;&nbsp;<span class='caret'></span>";
 		var yearSelections = document.getElementById("year-selections");
 		for(var i = dataSet.length - 1; i >= 0; i--)
-			yearSelections.innerHTML += "<li><a href='#team' onclick='changeYearView(" + dataSet[i].year + ");'>" + dataSet[i].year + "</a></li>";
+			yearSelections.innerHTML += "<li><a onclick='changeYearView(" + dataSet[i].year + ");'>" + dataSet[i].year + "</a></li>";
 
 
 		layoutInflator(organizerList, "organizer-template", "organizer-holder");
@@ -64,7 +64,7 @@ function layoutInflator(data, template, holder){
 		//animate in
 		$("#" + layoutClone.id).animate({
 			opacity: 1
-		}, 200);
+		}, 350);
 	}
 
 	layout.style.display = "none"; //hide the template element

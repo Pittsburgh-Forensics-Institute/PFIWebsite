@@ -19,7 +19,7 @@ $(document).ready(function(){
 		//update dropdown year selector
 		var yearSelections = document.getElementById("year-selections");
 		for(var i = dataSet.length - 1; i >= 0; i--)
-			yearSelections.innerHTML += "<li><a href='#' onclick='changeYearView(" + dataSet[i].year + ");'>" + dataSet[i].year + "</a></li>";
+			yearSelections.innerHTML += "<li><a onclick='changeYearView(" + dataSet[i].year + ");'>" + dataSet[i].year + "</a></li>";
 
 		//layout inflator
 		data.sort(function(a, b){
