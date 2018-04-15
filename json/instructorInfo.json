@@ -101,20 +101,20 @@
 		"year":"2018",
 		"data":[
 			{
-				"lastName":"Mittal",
-				"firstName":"Siddharth",
-				"image":"siddharthmittal.jpg",
-				"description":"Siddharth Mittal is a rising senior debater at North Allegheny Senior High School. Sid has competed in public forum debate for his fifth year now. Throughout his career, Sid has won the Pennsylvania State Championship, achieved top 8 at the George Mason University Invitational, qualified to NSDA Nationals, and enjoyed success at local public forum tournaments. This is Sid's second year instructing public forum at PFI. Sid in an alumnus of the 2015 Pittsburgh Forensics Institute.",
-				"isOrganizer":true,
-				"email":"siddharth@pghforensics.org"
-			},
-			{
 				"lastName":"Fu",
 				"firstName":"Joy",
 				"image":"joyfu.jpeg",
 				"description":"Joy Fu is a rising senior at North Allegheny Senior High School and has been competing in Lincoln Douglas Debate for the last three years. She has been competing on both the local and national circuit, placing at nearly every local tournaments and at national tournaments, such as at the Univeristy of Kentucky and Columbia Univeristy. This past year, Joy was a quarterfinalist at the state tournament, and qualified to the NSDA Nationals tournament. This will be Joy's third year teaching as an instructor for PFI and her second year as being a head coordinator for the camp. She is very excited to work with such high achiving students!",
 				"isOrganizer":true,
 				"email":"joy@pghforensics.org"
+			},
+			{
+				"lastName":"Mittal",
+				"firstName":"Siddharth",
+				"image":"siddharthmittal.jpg",
+				"description":"Siddharth Mittal is a rising senior debater at North Allegheny Senior High School. Sid has competed in public forum debate for his fifth year now. Throughout his career, Sid has won the Pennsylvania State Championship, achieved top 8 at the George Mason University Invitational, qualified to NSDA Nationals, and enjoyed success at local public forum tournaments. This is Sid's second year instructing public forum at PFI. Sid in an alumnus of the 2015 Pittsburgh Forensics Institute.",
+				"isOrganizer":true,
+				"email":"siddharth@pghforensics.org"
 			}
 		]
 	}
