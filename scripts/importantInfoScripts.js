@@ -33,5 +33,8 @@ $(document).ready(function(){
 		document.getElementById("where-address").innerHTML = yearData.address;
 		document.getElementById("map-iframe").src = yearData.googleMapsLink;
 
+		//assign cost to faq section
+		document.getElementById("program-cost").innerHTML = "The cost for PFI this year will be $" + yearData.cost + ".";
+
 	});
 });
