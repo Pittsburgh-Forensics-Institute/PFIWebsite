@@ -87,7 +87,7 @@ function changeYearView(yr){
 
 	
 	//change the dropdown view
-	document.getElementById('year-display').innerHTML = "Year: " + year + "&nbsp;&nbsp;<span class='caret'></span>";
+	document.getElementById('year-display').innerHTML = year + "&nbsp;&nbsp;<span class='caret'></span>";
 
 	var data;
 	for(var i = 0; i < dataSet.length; i++)

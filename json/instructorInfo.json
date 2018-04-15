@@ -8,6 +8,7 @@
 				"image":"akshathjain.JPG",
 				"description":"Akshath is currently a rising senior at North Allegheny and one of the most skilled members of the North Allegheny Varsity Speech and Debate Team. After debating for nearly five years, Akshath now enjoys coaching the young, aspiring members of the team to help them hone in their skills. In addition to teaching, Akshath is an avid Public Forum Debater, and has won numerous accolades at the local, state, and national levels. Just this past year, Akshath went undefeated in Public Forum Debate at the Moon Area Tournament, finished in the top 20 at the George Mason University National Speech and Debate Tournament, and qualified for both the PHSSL state tournament and CFL Grand National Tournament.",
 				"link":"http://akshathjain.com",
+				"email":"akshath@pghforensics.org",
 				"isOrganizer":true
 			},
 			{
@@ -15,6 +16,7 @@
 				"firstName":"Frank",
 				"image":"frankli.jpg",
 				"description":"Frank is currently a rising senior and one of the most experienced members of the North Allegheny Speech and Debate team. He has been extremely active in teaching and helping younger members of the team. In 10th grade, Frank was an event leader for public forum debate for middle school team. The subsequent year Frank was the event leader for policy debate for the high school team. In addition, Frank has reached elimination rounds at the Harvard National Tournament, finished 10th in the state for policy debate, and achieved top 4 in the International Public Policy Forum. Frank can't wait to continue teaching the next generation of debaters this summer!",
+				"email":"frank@pghforensics.org",
 				"isOrganizer":true
 			},
 			{
@@ -22,6 +24,7 @@
 				"firstName":"Joy",
 				"image":"joyfu.jpg",
 				"description":"Joy Fu has been debating on the North Allegheny Speech and Debate team for 2 years, focusing on Lincoln-Douglas debate. She's had success on both the local and national circuits, placing at multiple tournaments. This will be her second year as an instructor at PFI.",
+				"email":"joy@pghforensics.org",
 				"isOrganizer":true
 			},
 			{
@@ -29,6 +32,7 @@
 				"firstName":"Abhishek",
 				"image":"abhishekmahajan.jpg",
 				"description":"Abhishek is a rising senior at North Allegheny Senior High school and is going into his 4th year of debate. This past school year Abhishek was the event leader and main instructor for Public Forum on the middle school debate team.  In addition to being heavily involved in teaching debate, Abhishek also loves competing on the debate circuit. This year he placed at several local tournaments and qualified for the Grand National Tournament,  the State Tournament, and placed in the top 5 at the National Speech and Debate Qualifier. In addition to Public Forum debate, Abhishek also enjoys competing in other forms of debate, this year he went undefeated in Parliamentary Debate at the PHSSL State Qualifier.",
+				"email":"abhishek@pghforensics.org",
 				"isOrganizer":true
 			},
 			{
@@ -101,14 +105,16 @@
 				"firstName":"Siddharth",
 				"image":"siddharthmittal.jpg",
 				"description":"Siddharth Mittal is a rising senior debater at North Allegheny Senior High School. Sid has competed in public forum debate for his fifth year now. Throughout his career, Sid has won the Pennsylvania State Championship, achieved top 8 at the George Mason University Invitational, qualified to NSDA Nationals, and enjoyed success at local public forum tournaments. This is Sid's second year instructing public forum at PFI. Sid in an alumnus of the 2015 Pittsburgh Forensics Institute.",
-				"isOrganizer":true
+				"isOrganizer":true,
+				"email":"siddharth@pghforensics.org"
 			},
 			{
 				"lastName":"Fu",
 				"firstName":"Joy",
 				"image":"joyfu.jpeg",
 				"description":"Joy Fu is a rising senior at North Allegheny Senior High School and has been competing in Lincoln Douglas Debate for the last three years. She has been competing on both the local and national circuit, placing at nearly every local tournaments and at national tournaments, such as at the Univeristy of Kentucky and Columbia Univeristy. This past year, Joy was a quarterfinalist at the state tournament, and qualified to the NSDA Nationals tournament. This will be Joy's third year teaching as an instructor for PFI and her second year as being a head coordinator for the camp. She is very excited to work with such high achiving students!",
-				"isOrganizer":true
+				"isOrganizer":true,
+				"email":"joy@pghforensics.org"
 			}
 		]
 	}
