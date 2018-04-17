@@ -176,6 +176,14 @@
 		"year":"2018",
 		"data":[
 			{
+				"lastName":"Davidson",
+				"firstName":"Skylar",
+				"image":"skylardavidson.JPG",
+				"description":"Skylar Davidson is a rising senior at North Allegheny Senior High School and has been competing in Duo Interpretation for the past three years. Skylar has coached middle school debate for the past two years and NAFI summer camp and is a high school event leader. She has placed at almost every tournament on the local circuit and in doing so has earned numerous awards. Skylar has competed at the Pennsylvania State tournament and has placed as a semi finalist. She is also a two time qualifier for the NSDA nationals tournament. This will be Skylar first year as an instructor at PFI, and she is ecstatic to pass on her knowledge to such a talented incoming group of students!",
+				"isOrganizer":true,
+				"email":"skylar@pghforensics.org"
+			},
+			{
 				"lastName":"Fu",
 				"firstName":"Joy",
 				"image":"joyfu.jpeg",
