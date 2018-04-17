@@ -8,7 +8,7 @@ var dataSet;
 var year;
 
 $(document).ready(function(){
-	$.getJSON("https://raw.githubusercontent.com/akshathjain/PFIWebsite/master/json/instructorInfo.json?token=AKI1jDT_BKXH6__tcx7KAa0tqUPAK7UMks5a2-CdwA%3D%3D", function(ds){
+	$.getJSON("https://pghforensics.org/json/instructorInfo.json", function(ds){
 
 		dataSet = ds;
 		year = ds[ds.length - 1].year;
@@ -20,7 +20,6 @@ $(document).ready(function(){
 		var yearSelections = document.getElementById("year-selections");
 		for(var i = dataSet.length - 1; i >= 0; i--)
 			yearSelections.innerHTML += "<li><a onclick='changeYearView(" + dataSet[i].year + ");'>" + dataSet[i].year + "</a></li>";
-
 
 		layoutInflator(organizerList, "organizer-template", "organizer-holder");
 	});
