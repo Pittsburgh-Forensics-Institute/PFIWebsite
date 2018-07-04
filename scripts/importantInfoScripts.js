@@ -41,7 +41,7 @@ $(document).ready(function () {
 
 		//family discount
 
-		var famDisString = yearData.isFamilyDiscount ? "Yes! Families sending more than one child only pay $" + (1 - yearData.familyDiscount)*yearData.cost + " after the first child. So one child is $" + yearData.cost + ", two children are $" + (2 - yearData.familyDiscount)*yearData.cost + ", and three children are $" + (3 - 2*yearData.familyDiscount) + "." : "There is no family discount.";
+		var famDisString = yearData.isFamilyDiscount ? "Yes! Families sending more than one child only pay $" + (1 - yearData.familyDiscount)*yearData.cost + " after the first child. So one child is $" + yearData.cost + ", two children are $" + (2 - yearData.familyDiscount)*yearData.cost + ", and three children are $" + (3 - 2*yearData.familyDiscount)*yearData.cost + "." : "There is no family discount.";
 		document.getElementById("familyDiscount").innerHTML = famDisString;
 
 	});
