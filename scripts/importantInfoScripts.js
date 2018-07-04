@@ -36,5 +36,9 @@ $(document).ready(function () {
 		//assign cost to faq section
 		document.getElementById("program-cost").innerHTML = "The cost for PFI this year will be $" + yearData.cost + ".";
 
+		//checkduedate
+		var dueString = yearData.checkDueDate + ' Payment specifics have already been emailed out. Please <a href="#contact">contact</a> us with any questions.';
+		document.getElementById("checkDueDate").innerHTML = dueString;
+
 	});
 });
