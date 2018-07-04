@@ -40,5 +40,10 @@ $(document).ready(function () {
 		var dueString = yearData.checkDueDate + ' Payment specifics have already been emailed out. Please <a href="#contact">contact</a> us with any questions.';
 		document.getElementById("checkDueDate").innerHTML = dueString;
 
+		//family discount
+
+		var famDisString = yearData.isFamilyDiscount ? "Yes! Families sending more than one child only pay $" + (1 - yearData.familyDiscount)*yearData.cost + " after the first child. So one child is $" + yearData.cost + ", two children are $" + (2 - yearData.familyDiscount)*yearData.cost + ", and three children are $" + (3 - 2*yearData.familyDiscount) + "." : "There is no family discount.";
+		document.getElementById("familyDiscount").innerHTML = famDisString;
+
 	});
 });
