@@ -9,6 +9,17 @@ body{
 	margin: 0px;
 }
 
+.width-constraint{
+	width: 80%;
+	margin: auto;
+}
+
+@media only screen and (max-width: 850px){
+	.width-constraint{
+		width: 100%;
+		margin: auto;
+	}
+}
 
 /* navbar styles*/
 .navbar{
