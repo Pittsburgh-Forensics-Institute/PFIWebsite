@@ -267,7 +267,7 @@
 			}
 		]
 	},
-    {
+    	{
 		"year":"2019",
 		"data":[
 			{
@@ -278,7 +278,7 @@
 				"isOrganizer":true,
 				"email":"contact@pghforensics.org"
 			},
-            {
+            		{
 				"lastName":"Dassanaike-Perera",
 				"firstName":"Akshana",
 				"image":"akshanadassanaike.jpg",
@@ -286,7 +286,7 @@
 				"isOrganizer":true,
 				"email":"contact@pghforensics.org"
 			},
-            {
+            		{
 				"lastName":"Beriwal",
 				"firstName":"Sanjit",
 				"image":"sanjitberiwal.jpg",
@@ -294,7 +294,7 @@
 				"isOrganizer":true,
 				"email":"contact@pghforensics.org"
 			},
-            {
+            		{
 				"lastName":"Medhi",
 				"firstName":"Zehra",
 				"image":"zehramedhi.jpg",
@@ -302,77 +302,77 @@
 				"isOrganizer":true,
 				"email":"contact@pghforensics.org"
 			},
-            {
+            		{
 				"lastName":"Narayan",
 				"firstName":"Arjun",
 				"image":"arjunnarayan.jpg",
-				"description":"",
+				"description":""
 			},
-            {
+            		{
 				"lastName":"Kartan",
 				"firstName":"Dev",
 				"image":"devkartan.jpg",
-				"description":"",
+				"description":""
 			},
-            {
+            		{
 				"lastName":"Wang",
 				"firstName":"Gloria",
 				"image":"gloriawang.jpg",
-				"description":"",
+				"description":""
 			},
-            {
+            		{
 				"lastName":"Ahmad",
 				"firstName":"Hebah",
 				"image":"hebahahmad.jpg",
-				"description":"",
+				"description":""
 			},
-            {
+            		{
 				"lastName":"Zhou",
 				"firstName":"Jiany",
 				"image":"jianyzhou.jpg",
-				"description":"",
+				"description":""
 			},
-            {
+            		{
 				"lastName":"Catanzaro",
 				"firstName":"John",
 				"image":"johncatanzaro.jpg",
-				"description":"",
+				"description":""
 			},
-            {
+           		{
 				"lastName":"Gao",
 				"firstName":"Katherine",
 				"image":"katherinegao.jpg",
-				"description":"",
+				"description":""
 			},
-            {
+            		{
 				"lastName":"Shaw",
 				"firstName":"Olivia",
 				"image":"oliviashaw.jpg",
-				"description":"",
+				"description":""
 			},
-            {
+            		{
 				"lastName":"Shaw",
 				"firstName":"Rebecca",
 				"image":"rebeccashaw.jpeg",
-				"description":"",
+				"description":""
 			},
-            {
+           		{
 				"lastName":"Velaga",
 				"firstName":"Sai",
 				"image":"saivelaga.jpg",
-				"description":"",
+				"description":""
 			},
-            {
+            		{
 				"lastName":"Wahed",
 				"firstName":"Shejuti",
 				"image":"shejutiwahed.jpg",
-				"description":"",
+				"description":""
 			},
-            {
+            		{
 				"lastName":"Ren",
 				"firstName":"Victoria",
 				"image":"victoriaren.jpg",
-				"description":"",
+				"description":""
 			}
         ]
     }
