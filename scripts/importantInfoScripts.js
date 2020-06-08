@@ -26,17 +26,26 @@ $(document).ready(function () {
 		var whenString = "Sessions will be held Monday to Friday from " + yearData.startTime + " - " + yearData.endTime + " starting on " + yearData.startDate + " and ending on " + yearData.endDate + ".";
 		document.getElementById("when-description").innerHTML = whenString;
 
-		//assign location to link and map
-		var whereString = "All lessons will be held at " + yearData.addressName;
+		//assign location to link and map, changes if camp is online
+		var whereString;
+		if (yearData.isOnline) {
+			whereString = "All lessons will be held on " + yearData.addressName;
+			document.getElementById("where-address").innerHTML = yearData.address;
+			$("#where-address").attr("href", yearData.address);
+			$("#map-iframe").hide();
+			$("#residential-item").hide();
+		} else {
+			whereString = "All lessons will be held at " + yearData.addressName;
+			document.getElementById("where-address").innerHTML = yearData.address;
+			document.getElementById("map-iframe").src = yearData.googleMapsLink;
+		}
 		document.getElementById("where-description").innerHTML = whereString;
-		document.getElementById("where-address").innerHTML = yearData.address;
-		document.getElementById("map-iframe").src = yearData.googleMapsLink;
 
 		//assign cost to faq section
 		document.getElementById("program-cost").innerHTML = "The cost for PFI this year will be $" + yearData.cost + ".";
 
 		//checkduedate
-		var dueString = yearData.checkDueDate + ' Payment specifics have already been emailed out. Please <a href="#contact">contact</a> us with any questions.';
+		var dueString = yearData.checkDueDate + ' Please <a href="#contact">contact</a> us with any questions.';
 		document.getElementById("checkDueDate").innerHTML = dueString;
 
 		//family discount
@@ -44,5 +53,8 @@ $(document).ready(function () {
 		var famDisString = yearData.isFamilyDiscount ? "Yes! Families sending more than one child only pay $" + (1 - yearData.familyDiscount)*yearData.cost + " after the first child. So one child is $" + yearData.cost + ", two children are $" + (2 - yearData.familyDiscount)*yearData.cost + ", and three children are $" + (3 - 2*yearData.familyDiscount)*yearData.cost + "." : "There is no family discount.";
 		document.getElementById("familyDiscount").innerHTML = famDisString;
 
+		if (yearData.lunch) {
+			document.getElementById("lunch").innerHTML = yearData.lunch;
+		}
 	});
 });
