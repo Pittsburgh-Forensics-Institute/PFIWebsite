@@ -8,7 +8,7 @@ var dataSet;
 var year;
 
 $(document).ready(function(){
-	$.getJSON("https://pghforensics.org/json/instructorInfo.json", function(ds){
+	$.getJSON("../json/instructorInfo.json", function(ds){
 
 		dataSet = ds;
 		year = ds[ds.length - 1].year;
@@ -56,10 +56,10 @@ function layoutInflator(data, template, holder){
 			instructorName.innerHTML = "<b><a style='color: #333333;' href=" + data[i].link + ">"+ data[i].firstName + " " + data[i].lastName + "</a></b>";
 
 		email.innerHTML = "<a href='mailto:'" + data[i].email + "'>" + data[i].email + "</a>";
-		
+
 		layoutClone.id += i;
 		document.getElementById(holder).appendChild(layoutClone);
-		
+
 		//animate in
 		$("#" + layoutClone.id).animate({
 			opacity: 1
@@ -70,10 +70,10 @@ function layoutInflator(data, template, holder){
 	document.getElementById(holder).appendChild(layout); //add (hidden) template back
 }
 
-//change the year view 
+//change the year view
 function changeYearView(yr){
 	year = yr
-	
+
 	//change the dropdown view
 	document.getElementById('year-display').innerHTML = year + "&nbsp;&nbsp;<span class='caret'></span>";
 

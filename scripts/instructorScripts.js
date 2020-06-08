@@ -1,14 +1,14 @@
 /*
 Name: Akshath Jain
 Date: 7/23/17
-Purpose: automatically load in instructor information 
+Purpose: automatically load in instructor information
 */
 var dataSet;
 var year;
 
 $(document).ready(function(){
 	//get json
-	$.getJSON('https://pghforensics.org/json/instructorInfo.json', function(ds){
+	$.getJSON('../json/instructorInfo.json', function(ds){
 		dataSet = ds;
 
 		//get data from current year
@@ -67,7 +67,7 @@ function layoutInflator(data, template, holder){
 		instructorDescription.innerHTML = data[i].description;
 
 		row.appendChild(layoutClone);
-		
+
 		if((i + 1) % 3 == 0 || i == data.length - 1){
 			//add empty cells to fill the row if need be
 			for(var j = 3 - row.childElementCount; j > 0; j--){
@@ -75,7 +75,7 @@ function layoutInflator(data, template, holder){
 				temp.className = "table-cell";
 				row.appendChild(temp);
 			}
-			
+
 			row.id += i;
 
 			document.getElementById(holder).appendChild(row);
@@ -91,11 +91,11 @@ function layoutInflator(data, template, holder){
 	document.getElementById(holder).appendChild(layout); //add (hidden template) back inside
 }
 
-//change the year view 
+//change the year view
 function changeYearView(yr){
 	this.year = yr
 
-	
+
 	//change the dropdown view
 	document.getElementById('year-display').innerHTML = year + "&nbsp;&nbsp;<span class='caret'></span>";
 
@@ -107,12 +107,12 @@ function changeYearView(yr){
 		}
 
 
-	document.getElementById("loader").style.display = "visible"; //hide the loader	
+	document.getElementById("loader").style.display = "visible"; //hide the loader
 
 	//layout inflator
 	data.sort(function(a, b){
 		return a.lastName.localeCompare(b.lastName);
 	});
 	layoutInflator(data, 'instructor-template', 'instructor-container');
-	document.getElementById("loader").style.display = "none"; //hide the loader	
+	document.getElementById("loader").style.display = "none"; //hide the loader
 }
