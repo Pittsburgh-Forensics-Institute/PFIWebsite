@@ -32,7 +32,7 @@ $(document).ready(function () {
 			whereString = "All lessons will be held on " + yearData.addressName;
 			document.getElementById("where-address").innerHTML = yearData.address;
 			$("#where-address").attr("href", yearData.address);
-			$("#map-iframe").hide();
+			$("#map-iframe").remove();
 			$("#residential-item").hide();
 		} else {
 			whereString = "All lessons will be held at " + yearData.addressName;
