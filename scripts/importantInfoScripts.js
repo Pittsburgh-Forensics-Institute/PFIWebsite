@@ -34,7 +34,7 @@ $(document).ready(function () {
 			$("#where-address").attr("href", yearData.address);
 			$("#map-iframe").remove();
 			$("#residential-item").hide();
-			$("lunch-item").hide();
+			$("#lunch-item").hide();
 		} else {
 			whereString = "All lessons will be held at " + yearData.addressName;
 			document.getElementById("where-address").innerHTML = yearData.address;
@@ -63,5 +63,8 @@ $(document).ready(function () {
 			famDisString = "There is no family discount.";
 		}
 		document.getElementById("familyDiscount").innerHTML = famDisString;
+
+		//scholarship
+		document.getElementById("scholarship").innerHTML = yearData.isScholarship ? yearData.scholarship : "We are not offering scholarships this year.";
 	});
 });
