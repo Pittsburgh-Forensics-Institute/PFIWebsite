@@ -66,5 +66,10 @@ $(document).ready(function () {
 
 		//scholarship
 		document.getElementById("scholarship").innerHTML = yearData.isScholarship ? yearData.scholarship : "We are not offering scholarships this year.";
+
+		//congress
+		if (yearData.isCongressNotAvailable) {
+			$("#congress-item").hide();
+		}
 	});
 });

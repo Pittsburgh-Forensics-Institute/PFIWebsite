@@ -32,7 +32,6 @@
 		"familyDiscount":0.50
 	},
 	{
-
 		"year":"2019",
 		"signup":"https://forms.gle/B6bYdgy9a8sMBGUv5",
 		"startDate":"July 29th",
@@ -64,6 +63,6 @@
 		"familyDiscount":"Families sending more than one child pay $325 for two children and $425 for three children. Contact us <a href='#contact'>here</a> us if you are signing up more than 3 children.",
 		"isScholarship":true,
 		"scholarship":"We offer need based scholarships for those who are unable to pay the registration fee. Please <a href='#contact'>contact</a> us if you require a need based scholarship.",
-		"isCongress":false
+		"isCongressNotAvailable":true
 	}
 ]
