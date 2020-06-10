@@ -34,6 +34,7 @@ $(document).ready(function () {
 			$("#where-address").attr("href", yearData.address);
 			$("#map-iframe").remove();
 			$("#residential-item").hide();
+			$("lunch-item").hide();
 		} else {
 			whereString = "All lessons will be held at " + yearData.addressName;
 			document.getElementById("where-address").innerHTML = yearData.address;
@@ -49,12 +50,18 @@ $(document).ready(function () {
 		document.getElementById("checkDueDate").innerHTML = dueString;
 
 		//family discount
-
-		var famDisString = yearData.isFamilyDiscount ? "Yes! Families sending more than one child only pay $" + (1 - yearData.familyDiscount)*yearData.cost + " after the first child. So one child is $" + yearData.cost + ", two children are $" + (2 - yearData.familyDiscount)*yearData.cost + ", and three children are $" + (3 - 2*yearData.familyDiscount)*yearData.cost + "." : "There is no family discount.";
-		document.getElementById("familyDiscount").innerHTML = famDisString;
-
-		if (yearData.lunch) {
-			document.getElementById("lunch").innerHTML = yearData.lunch;
+		var famDisString;
+		if (yearData.isFamilyDiscount) {
+			if (typeof yearData.familyDiscount == "number") {
+				famDisString = "Yes! Families sending more than one child only pay $" + (1 - yearData.familyDiscount) * yearData.cost +
+						" after the first child. So one child is $" + yearData.cost + ", two children are $" + (2 - yearData.familyDiscount) * yearData.cost +
+						", and three children are $" + (3 - 2 * yearData.familyDiscount) * yearData.cost + ".";
+			}else{
+				famDisString = "Yes! " + yearData.familyDiscount;
+			}
+		}else{
+			famDisString = "There is no family discount.";
 		}
+		document.getElementById("familyDiscount").innerHTML = famDisString;
 	});
 });

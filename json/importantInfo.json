@@ -49,7 +49,6 @@
 		"familyDiscount":0.50
 	},
 	{
-
 		"year":"2020",
 		"signup":"https://docs.google.com/forms/d/e/1FAIpQLSdw4y4hD0O5FmF96cWjbnaVwtevSrDwcmpTix6nfAMpRgqAeg/viewform",
 		"startDate":"July 27th",
@@ -59,9 +58,10 @@
 		"isOnline":true,
 		"address":"https://zoom.us/",
 		"addressName":"ZOOM through various breakout rooms. A form with specific directions on how this will work will be sent out after registration.",
-		"cost":225,
-		"checkDueDate":"All checks must be mailed by July 18th.",
+		"cost":200,
+		"checkDueDate":"All checks must be recieved by July 20th.",
 		"isFamilyDiscount":true,
-		"familyDiscount":0.50
+		"familyDiscount":"Families sending more than one child pay $325 for two children and $425 for three children. Contact us at <a href='mailto:contact@pghforensics.org'>contact@pghforensics.org</a> if you are signing up more than 3 children.",
+		"isScholarship":true
 	}
 ]
