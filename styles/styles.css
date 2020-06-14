@@ -105,6 +105,14 @@ body{
 	padding-bottom: 70px;
 }
 
+.bg-info-alt {
+	background-color: #F2F5F7;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
 .bg-info-text h1{
 	font-size: 27px;
 	margin-bottom: 50px;
