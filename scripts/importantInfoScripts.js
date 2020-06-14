@@ -35,6 +35,8 @@ $(document).ready(function () {
 			$("#map-iframe").remove();
 			$("#residential-item").hide();
 			$("#lunch-item").hide();
+			$("#info").removeClass("bg-info");
+			$("#info").addClass("bg-info-alt");
 		} else {
 			whereString = "All lessons will be held at " + yearData.addressName;
 			document.getElementById("where-address").innerHTML = yearData.address;
