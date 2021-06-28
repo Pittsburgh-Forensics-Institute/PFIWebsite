@@ -64,5 +64,25 @@
 		"isScholarship":true,
 		"scholarship":"We offer need based scholarships for those who are unable to pay the registration fee. Please <a href='#contact'>contact</a> us if you require a need based scholarship.",
 		"isCongressNotAvailable":true
+	},
+	{
+		"year":"2021",
+		"signup":"https://docs.google.com/forms/d/e/1FAIpQLSdw4y4hD0O5FmF96cWjbnaVwtevSrDwcmpTix6nfAMpRgqAeg/viewform",
+		"startDate":"July 27th",
+		"endDate":"August 7th",
+		"startTime":"9:30am",
+		"endTime":"4:30pm",
+		"isOnline":true,
+		"address":"https://zoom.us/",
+		"addressName":"ZOOM through various breakout rooms. A form with specific directions on how this will work will be sent out after registration.",
+		"cost":200,
+		"checkDueDate":"All checks must be mailed by July 25th.",
+		"isFamilyDiscount":true,
+		"familyDiscount":"Families sending more than one child pay $325 for two children and $425 for three children. Contact us <a href='#contact'>here</a> us if you are signing up more than 3 children.",
+		"isScholarship":true,
+		"scholarship":"We offer need based scholarships for those who are unable to pay the registration fee. Please <a href='#contact'>contact</a> us if you require a need based scholarship.",
+		"isCongressNotAvailable":true
 	}
+	
+	
 ]
